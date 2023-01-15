@@ -1,4 +1,6 @@
-name: 'Checkout'
+- name: Checkout
+  uses: actions/checkout@v3.3.0
+
 description: 'Checkout a Git repository at a particular version'
 inputs:
   repository:
